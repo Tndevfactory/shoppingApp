@@ -1,0 +1,31 @@
+#navigation{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(60,132,182);
+    background: linear-gradient(0deg, rgba(60,132,182,1) 0%, rgba(0,181,250,0.9948179955575981) 45%, rgb(97, 190, 224) 100%);
+
+    .title-brand{
+        font-size: 2rem;
+        letter-spacing: 1px;
+         font-weight: 700;
+         color: #003049;
+    }
+
+    .menu a{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .auth {
+        .connexion{
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #f7f7f7;
+        }
+        .inscription{
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #003049;
+        }
+         
+    }
+}

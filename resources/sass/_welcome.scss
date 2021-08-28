@@ -1,0 +1,14 @@
+.toast_anime{
+  opacity: 0;
+  position:fixed;
+  right:2rem;
+  top:5rem;
+
+}
+.card_product {
+  box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.3);
+  transition:0.1s linear;
+  &:hover {
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);
+  }
+}

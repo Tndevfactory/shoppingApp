@@ -1,0 +1,12 @@
+@import "./config";
+@import "./helpers/helpers";
+
+// components
+ @import "./components/navbar";
+ @import "./components/footer";
+ @import "./components/user-online";
+// login
+ @import "./login/login";
+// welcome
+ @import "./welcome";
+

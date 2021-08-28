@@ -1,0 +1,43 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+    // :root{
+
+//   --theme-color-light:rgb(73, 75, 77);
+//   --theme-bgcolor-light:rgb(255, 255, 255);
+  
+//   --theme-color-dark:rgb(197, 195, 195);
+//   --theme-bgcolor-dark:rgb(80, 80, 82);
+  
+//   --theme-color:var(--theme-color-light);
+//   --theme-bgcolor:var(--theme-bgcolor-light);
+// }
+ 
+
+//     $theme-color:var(--theme-color);
+//     $theme-bgcolor:var(--theme-bgcolor);
+
+
+
+    
+$text-size:0.8rem;
+// initialisation 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html{
+    font-size: $text-size;
+}
+body{
+    background-color: rgb(194, 218, 221);
+    color:#333;
+    overflow-x: hidden;
+    font-family: 'Mukta', sans-serif;
+    //font-family: 'Oswald', sans-serif;
+    line-height: 2;
+}

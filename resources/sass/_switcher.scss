@@ -1,0 +1,27 @@
+
+#switcher{
+  cursor:pointer;
+  outline:none;
+  &:focus{
+    outline:none;
+    box-shadow:none;
+  }
+}
+label{
+  color:$theme-color;
+}
+
+.p-1{
+    
+  font-size:2rem;  
+  color:$theme-color;
+}
+
+.form-check-input:checked {
+    background-color: $theme-color !important;
+    border-color: lighten(#abc, 10%) !important;
+}
+.form-check-input{
+    background-color: lighten(#abc, 3%);
+    border-color: $theme-color !important;
+}
